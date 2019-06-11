@@ -1,4 +1,4 @@
-* [Main JIRA ticket](https://ssu-jira.softserveinc.com/secure/RapidBoard.jspa?rapidView=1032)
+    * [Main JIRA ticket](https://ssu-jira.softserveinc.com/secure/RapidBoard.jspa?rapidView=1032)
 
 
 ## Code reviewers
