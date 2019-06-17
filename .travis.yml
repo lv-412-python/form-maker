@@ -1,9 +1,18 @@
-language: python
-python:
-  - "3.7-dev"
+matrix:
+  include:
+    - language: python
+      python:
+        - "3.7-dev"
+      install:
+        - pip install -r requirements.txt
+      script:
+        - pylint formmaker
 
-install:
-  - pip install -r requirements.txt
 
-script:
-  - pylint formmaker
+    - language: node_js
+      node_js:
+        - "10.16.0"
+      install:
+        - cd ./formmaker/services/client/src/client_ui && npm install
+      script:
+        - npm run lint

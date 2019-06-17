@@ -105,3 +105,25 @@ venv.bak/
 
 # PyCharm
 .idea/
+
+#React
+/formmaker/services/client/src/client_ui/node_modules
+/formmaker/services/client/src/client_ui .pnp
+/formmaker/services/client/src/client_ui .pnp.js
+
+# testing
+/formmaker/services/client/src/client_ui/coverage
+
+# production
+/formmaker/services/client/src/client_ui/build
+
+# misc
+/formmaker/services/client/src/client_ui .DS_Store
+/formmaker/services/client/src/client_ui .env.local
+/formmaker/services/client/src/client_ui .env.development.local
+/formmaker/services/client/src/client_ui .env.test.local
+/formmaker/services/client/src/client_ui .env.production.local
+
+/formmaker/services/client/src/client_ui npm-debug.log*
+/formmaker/services/client/src/client_ui yarn-debug.log*
+/formmaker/services/client/src/client_ui yarn-error.log*
